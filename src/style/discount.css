@@ -1,0 +1,68 @@
+.discount{
+  display:flex;
+}
+.discont-desc{
+  flex: 2;
+  background-color: #f7f3ef;
+  padding: 20px;
+  position: relative;
+}
+.discount-item{
+  flex:1;
+  background-image: url(../images/dis1.jpg);
+  background-size: cover;
+  margin: 0 20px;
+  height: 400px;
+  position: relative;
+  transition: transform 0.5s;
+  
+}
+.discount-item:hover{
+  transform: scale(1.1);
+}
+.top{
+  position: relative;
+  padding: left 60px;
+  margin-bottom: 40px;
+
+}
+.top .icon{
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 90px;
+  color:#917760 ;
+}
+.top + p{
+  line-height: 2;
+}
+
+.bolletes{
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bolletes span{
+  display: inline-block;
+	width: 50px;
+  height: 5px;
+  background-color: #917760;
+	margin:5px;
+  border-radius: 5px;
+}
+
+.discount-item-info{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+}
+.discount-item-info h3{
+  font-weight:normal;
+  color: #917760;
+}
+.discount-item-info {
+  font-weight:20px;
+}
