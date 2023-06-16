@@ -1,0 +1,43 @@
+.category-items{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+
+.category-item{
+  position: relative;
+  text-align: left;
+}
+
+.categoryImg{
+  width: 100%;
+}
+
+.category-item-subtitle{
+  color: gray;
+  font-weight: normal;
+}
+.category-item-title{
+  color: black;
+}
+.category-item .fa-angle-right{
+  width: 40px;
+  height: 40px;
+  background-color: #917760;
+  color: white;
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+.category-item:hover .fa-angle-right{
+  opacity: 1;
+  visibility: visible;
+}
+
+
